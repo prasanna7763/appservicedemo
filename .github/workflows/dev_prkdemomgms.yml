@@ -10,9 +10,9 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: prkdemomgms   # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
-  NUGET_VERSION: '5.3.x'           # set this to the dot net version to use
+  AZURE_WEBAPP_NAME: prkdemomgms
+  AZURE_WEBAPP_PATH: '.'
+  DOTNET_VERSION: '2.2.101'
 
 jobs:
   build:
